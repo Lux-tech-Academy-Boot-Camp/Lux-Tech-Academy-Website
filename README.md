@@ -16,4 +16,7 @@
  ### **3). CSS Code Structure.** 
 
   - Use  variables, grouping and nexting to avoid code repitation
-  - Use white saces to seperate difference selectors.
+  - Use white saces to seperate difference selectors. 
+
+
+  
