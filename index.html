@@ -7,53 +7,63 @@
 	<link rel="stylesheet" type="text/css" href="static/css/styles.css">
 	<link rel="icon" type="image/x-icon" href="static/images/logo.jpeg">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body style="height: 100vh;">
-	<nav>
-		<label class="logo">
+	<div class="md-content" >
+     <p>KUSOMA</p>
+	</div>
+	<nav class="main-nav">
+
+		<h2 class="logo">
 			Lux Academy
-		</label>
-		<ul class="menu">
+		</h2>
+		<ul id="menu" class="menu">
 
-			<li><a class="active" href="#"> LuxDev </a> </li>
-			<li><a href="#">  Courses</a> </li>
-			<li><a href="#"> Events</a> </li>
-			<li><a href="#" class="enroll"> Enroll </a> </li>
+			<li><a class="active" href="#LuxDev"> LuxDev </a> 
+			</li><li><a href="#About">About</a> </li>
+
+			<li><a href="#Courses">Courses</a> </li>
+			<li><a href="#Events">Events</a> </li>
+			<li><a href="#Enroll" class="enroll">Enroll </a> </li>
+			
 		</ul>
-		<label id="icon">
-			<i onclick="show()" class="fas fa-bars"></i>
-		</label>
-	</nav>
-	<section class="main">
-		<div class="barner">
-			<p class="barner-text">Lux Tech Academy is a free online training BootCamp which has crash and advance
-				coding classes.
-			</p>
-			<br />
-
-			<p>Our courses are designed and organized by experienced team of Developers and Engineers.
-			</p><br />
-			<p>
-				Learn Programming, Web Apps Development, Data Science, Data Structures and Algorithms The Right Way.
-			</p> <br />
-			<p>
-				We're trying to build an online coding school that's as good as MIT but as cheap as a gym membership.
-			</p>
-			<div class="btns">
-				<button class="btn"> Get Started</button>
-
+		<div id="icon">
+			<i class="fas fa-bars hamburger"></i>
+		</div>
+	</nav> 
+	<section id='LuxDev' class="main">
+	
+            <div class="barner">	
+			
+				<p class="barner-text">Lux Tech Academy is a free online training BootCamp which has crash and advance
+					coding classes.
+				</p>
+				<br />
+	
+				<p>Our courses are designed and organized by experienced team of Developers and Engineers.
+				</p><br />
+				<p>
+					Learn Programming, Web Apps Development, Data Science, Data Structures and Algorithms The Right Way.
+				</p> <br />
+				<p>
+					We're trying to build an online coding school that's as good as MIT but as cheap as a gym membership.
+				</p>
+				<div class="btns">
+					<button class="btn"> Get Started</button>
+	
+				</div>
 			</div>
-		</div>
-		<div class="barner">
-			<img class="barner-img" src="static/images/simple.png" alt="barner image">
-		</div>
-	</section>
+			<div class="barner">
+				<img class="barner-img" src="static/images/simple.png" alt="barner image">
+			</div>
+		
+		
+	</section> 
 
 
-	<section class="mid-division">
+	<section class="mid-division" id="Courses">
 		<div class="mid-division-divs">
 			<figure class="mid-division-img">
 				<img src="https://img.icons8.com/pastel-glyph/50/000000/laptop-coding--v1.png" />
@@ -82,7 +92,8 @@
 		</div>
 	</section>
 
-	<section class="about">
+	
+	<section  id = "About" class="about">
 		<h2 class="about-heading">
 			ABOUT US
 		</h2>
@@ -116,15 +127,20 @@
 					At Lux Tech Academy we are building an online coding school that's as good as MIT but as cheap as a
 					gym membership.
 				</p>
-				<div>
-					<button class="btn"> Read More</button>
-					<button class="btn"> Join Us</button>
+				<div class="about-btns">
+
+					<div class="more">
+						<button class="btn"> Read More</button>
+					</div>
+					<div class="more">
+                        <button class="btn"> Join Us</button>  
+					</div>
 				</div>
 			</div>
 		</article>
 	</section>
 
-	<section class="courses">
+	<section id='Courses' class="courses">
 		<div>
 			<h1 class="courses-heading">
 				OUR LATEST COURSES
